@@ -3,8 +3,9 @@
     <link rel="stylesheet" href="index.css">
   </head>
     <body class="bodyCenter">
-        <h1>Estas redirigiendote a PayU, deseas continuar?</h1>
-        <form method="post" action="https://sandbox.checkout.payulatam.com/ppp-web-gateway-payu/">
+      <div class="container">
+        <div class="title"><h2>Estas redirigiendote a PayU, deseas continuar?</h1></div>
+        <div><form method="post" action="https://sandbox.checkout.payulatam.com/ppp-web-gateway-payu/">
             <input name="merchantId"      id="inputMerchantId"         type="hidden"     >
             <input name="accountId"       id="inputAccountId"          type="hidden"     >
             <input name="description"     id="inputDescription"        type="hidden"     >
@@ -19,7 +20,17 @@
             <input name="responseUrl"     id="inputResponseUrl"        type="hidden"     > <!-- LA PAGINA DE REDIRECCION DEL PAGO -->
             <input name="confirmationUrl" id="inputConfirmationUrl"    type="hidden"     > 
             <button name="Submit" class="btn-payu"  type="submit" ><img class="imagePayU" src="LOGOS_PAYU/LOGO1.png"></button>
-          </form>
+          </form></div>
+        
+      </div>
+      <div class="footer">
+        <div class="image-container">
+          <img src="images/pci.png" alt="Imagen 1">
+          <img src="images/norton.png" alt="Imagen 2">
+          <img src="images/traspa.png" alt="Imagen 3">
+      </div>
+      </div>
+        
           <script>
             // Obtener los parámetros de la URL
             const urlParams = new URLSearchParams(window.location.search);
