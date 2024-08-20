@@ -56,7 +56,7 @@ h5{
 }
 
 .btn-payu {
-  background-color: #002124; /* Color de fondo del botón */
+  background-color: #a6c307; /* Color de fondo del botón */
   color: white; /* Color del texto del botón */
   border: none; /* Elimina el borde del botón */
   border-radius: 20px; /* Redondea las esquinas del botón */
@@ -65,7 +65,7 @@ h5{
   height: 100px;
 }
 .btn-payu:hover {
-  background-color: #a6c307; /* Color de fondo del botón */
+  background-color: #002124; /* Color de fondo del botón */
   color: white; /* Color del texto del botón */
   border: none; /* Elimina el borde del botón */
   border-radius: 20px; /* Redondea las esquinas del botón */
